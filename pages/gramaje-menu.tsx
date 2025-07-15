@@ -5,7 +5,7 @@ export default function GramajeMenuPage() {
   const [menu, setMenu] = useState([]);
   const [tdee, setTdee] = useState(2000);
   const [comidas, setComidas] = useState(3);
-  const [ingredientes, setIngredientes] = useState<string>([]);
+  const [ingredientes, setIngredientes] = useState<string[]>([]);
   const [objetivo, setObjetivo] = useState<string>("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
